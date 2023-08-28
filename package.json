@@ -1,18 +1,18 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Tuto-Launcher",
+    "preductname": "Tuto Launcher",
     "version": "1.3.2",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "description": "Un launcher Minecraft Super cool",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://launcher.luuxis.fr/launcherSelvania",
+    "author": "Luuxis, 9e_Docteur",
+    "url": "http://132.145.251.181",
     "engines": {
         "node": "^18.x.x"
     },
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --build",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png",
+        "icon": "node build.js --icon=https://github.com/DocTeam-Dev/TutoLauncher/blob/master/src/assets/images/icon.png",
         "dev": "nodemon --exec npm start"
     },
     "license": "CC0",
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/DocTeam-Dev/TutoLauncher.git"
     }
 }
